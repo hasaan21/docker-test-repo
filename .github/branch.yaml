@@ -1,4 +1,4 @@
-name: App actions branch
+name: branch
 
 on: [pull_request]
 
