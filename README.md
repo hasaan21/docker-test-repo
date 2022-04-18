@@ -22,4 +22,6 @@ It's a simple node application created to test docker functionalities. Feel free
 
 Added github action to detect changed files
 
+- Testing change
+
 # Many more to come...
