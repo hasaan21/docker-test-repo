@@ -9,7 +9,7 @@ jobs:
     name: PR files changed detector
     steps:
       - name: Annotate PR
-        uses: hasaan21/files-changed-detector-actionv1.1-alpha.1.1
+        uses: hasaan21/files-changed-detector-action@v1.1-alpha.1.3
         with:
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
