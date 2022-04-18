@@ -1,0 +1,17 @@
+name: App actions branch
+
+on: [pull_request]
+
+jobs:
+
+  annotate-pr:
+    runs-on: ubuntu-latest
+    name: PR files changed detector
+    steps:
+      - name: Annotate PR
+        uses: hasaan21/files-changed-detector-actionv1.1-alpha.1.1
+        with:
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          pr_number: ${{ github.event.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -18,5 +18,8 @@ It's a simple node application created to test docker functionalities. Feel free
 
 <pre><code>docker-compose up</code></pre>
 
+## Github Action
+
+Added github action to detect changed files
 
 # Many more to come...
